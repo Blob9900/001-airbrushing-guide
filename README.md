@@ -1,2 +1,2 @@
-# 001_airbrushing_guide
+# 001-airbrushing-guide
 A website created using Gatsby.
