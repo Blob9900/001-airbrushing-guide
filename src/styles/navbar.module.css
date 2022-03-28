@@ -1,0 +1,25 @@
+.container {
+    background: rgb(249,207,209);
+    text-align: center;
+    margin-bottom: 10px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.links li:hover {
+    text-decoration: underline
+}
+.bigLinksItem {
+    font-size: 2rem;
+    color: black;
+}
+.linksItem {
+    margin: 0 5px 5px 5px;
+    font-size: 1.5rem;
+    color: black;
+}
+.activeLinksItem {
+    color: rgb(243,159,137);
+}

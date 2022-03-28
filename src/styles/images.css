@@ -1,0 +1,41 @@
+.center-image {
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    align-items: center;
+}
+.center-caption {
+    text-align: center;
+    font-size: 0.9rem;
+}
+.compare-two {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.four-image-grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+        "fig-one fig-two"
+        "fig-three fig-four";
+}
+.fig-img-one {
+    grid-area: fig-one;
+    max-width: 400px;
+    
+}
+.fig-img-two {
+    grid-area: fig-two;
+    max-width: 400px;
+}
+.fig-img-three {
+    grid-area: fig-three;
+    max-width: 400px;
+}
+.fig-img-four {
+    grid-area: fig-four;
+    max-width: 400px;
+}
